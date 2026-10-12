@@ -1,0 +1,50 @@
+variable,coeficiente
+catBin__OverTime_Yes,2.1327361459147323
+catNom__BusinessTravel_Non-Travel,-0.954758415587411
+catNom__BusinessTravel_Travel_Frequently,0.9542248279458478
+catNom__MaritalStatus_Single,0.8256176385862346
+num__YearsAtCompany,0.8029599560782383
+catNom__JobRole_Laboratory Technician,0.7510714912518036
+num__YearsInCurrentRole,-0.6666191026369233
+catOrd__JobInvolvement,-0.6246789043648757
+catNom__JobRole_Sales Representative,0.533230545554734
+catNom__EducationField_Technical Degree,0.5198511572252476
+catOrd__JobLevel,-0.5023251795224579
+num__NumCompaniesWorked,0.49190265982904785
+num__YearsWithCurrManager,-0.4842506272991955
+catOrd__EnvironmentSatisfaction,-0.4637513055951071
+num__YearsSinceLastPromotion,0.4633483095337928
+num__DistanceFromHome,0.4400082425421476
+catNom__JobRole_Research Director,-0.4256448100369852
+num__Age,-0.40640541952186215
+catOrd__JobSatisfaction,-0.39920604221452094
+catNom__EducationField_Medical,-0.3972965483874368
+catNom__JobRole_Research Scientist,-0.36381149750009684
+catOrd__WorkLifeBalance,-0.35743142027068275
+catNom__EducationField_Marketing,0.35621913088501633
+catNom__JobRole_Human Resources,0.34092634440761216
+catNom__Department_Research & Development,-0.3285536566549263
+catBin__Gender_Male,0.28642666609818956
+num__DailyRate,-0.27491972413671434
+catOrd__RelationshipSatisfaction,-0.26831112474205804
+catNom__Department_Sales,0.25077898210730715
+catNom__MaritalStatus_Divorced,-0.24247988194577547
+catNom__JobRole_Healthcare Representative,-0.23572403163010092
+catOrd__StockOptionLevel,-0.2299376381986282
+num__TrainingTimesLastYear,-0.22067716639543564
+catNom__EducationField_Life Sciences,-0.209793261703096
+catNom__EducationField_Other,-0.19943663729889446
+num__TotalWorkingYears,-0.14949181851405866
+catNom__EducationField_Human Resources,0.1145577053166341
+catOrd__PerformanceRating,0.11309912111744455
+num__MonthlyIncome,-0.10411377276071684
+num__HourlyRate,0.07502820087609369
+num__PercentSalaryHike,-0.058395796436638066
+num__MonthlyRate,-0.04700853326579286
+catOrd__Education,-0.044619176363407065
+catNom__BusinessTravel_Travel_Rarely,0.0
+catNom__Department_Human Resources,0.0
+catNom__JobRole_Manager,0.0
+catNom__JobRole_Manufacturing Director,0.0
+catNom__JobRole_Sales Executive,0.0
+catNom__MaritalStatus_Married,0.0
