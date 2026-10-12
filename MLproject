@@ -1,0 +1,24 @@
+name: attrition-mlflow
+
+python_env: python_env.yaml
+
+entry_points:
+  main:
+    # MLflow solo maneja los tipos string, float, path y uri; los enteros van como float
+    parameters:
+      data: {type: string, default: data/processed/attrition_limpio.csv}
+      C: {type: float, default: 1.0}
+      l1_ratio: {type: float, default: 0.5}
+      max_iter: {type: float, default: 4000}
+      class_weight: {type: string, default: none}
+      seed: {type: float, default: 17}
+    command: >-
+      python -m attrition.modeling.train --data {data}
+      --C {C} --l1-ratio {l1_ratio} --max-iter {max_iter}
+      --class-weight {class_weight} --seed {seed}
+
+  descargar_datos:
+    command: "python -m attrition.dataset"
+
+  preparar_datos:
+    command: "python -m attrition.features"

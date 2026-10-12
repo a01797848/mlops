@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "attrition"
+version = "0.0.1"
+description = "Deserci\u00f3n de empleados en IBM."
+authors = [
+  { name = "ToribioMariely" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.13.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["attrition"]
+include = ["pyproject.toml", "attrition/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["attrition"]
+force-sort-within-sections = true
+
